@@ -1,0 +1,34 @@
+{
+    "name": "MobileMovements",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "af96cfdb-4076-42a0-8956-f2720adb117d",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Value",
+                    "id": "2243a10c-835b-49fe-969f-502ca2d8a57d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c3232ab5-7d9d-4db0-a849-f6a87cef71f4",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

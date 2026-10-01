@@ -1,0 +1,34 @@
+{
+    "name": "trying",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "58adaf81-3bfb-4302-a0f9-b179c6c3293e",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "e5e189a9-bd6d-411b-9b14-5f74b20aa22b",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4f4e9fc9-68e3-481c-a429-d630f34f5baf",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
